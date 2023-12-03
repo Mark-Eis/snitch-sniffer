@@ -5,7 +5,7 @@
 `cd snitch-sniffer`
 
 ## Step Two: Create a Git repository for the project
-**git-init - Create an empty Git repository or reinitialize an existing one**
+*git-init* - Create an empty Git repository or reinitialize an existing one
 
 `git init`
 
@@ -23,7 +23,7 @@
 > **/._.DS_Store
  
 ## Step Three: Add file contents to the index
-**git-add - Add file contents to the index**
+*git-add* - Add file contents to the index
 
 ### Add a single file
 `git add README.md`
@@ -32,12 +32,12 @@
 `git add --all`
 
 ### Inspect the working tree status
-**git-status - Show the working tree status**
+*git-status* - Show the working tree status
 
 `git status`
 
 ### Record changes to the repository (repo)
-**git-commit - Record changes to the repository**
+*git-commit* - Record changes to the repository
 
 `git commit -am "add README.md"`
 
@@ -45,7 +45,7 @@
 `git status`  
     
 ## Step Four: Create a branch
-**git-checkout - Switch branches or restore working tree files**
+*git-checkout* - Switch branches or restore working tree files
 
 *git checkout -b new-branch*
 
