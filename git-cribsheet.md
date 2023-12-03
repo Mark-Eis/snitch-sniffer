@@ -47,7 +47,7 @@ Appears as: –
 ## Step Four: Create a branch
 *git-checkout* - Switch branches or restore working tree files
 
-*git checkout -b new-branch*
+*git checkout -b \<new-branch>*
 
 `git checkout -b revised-version`
 
