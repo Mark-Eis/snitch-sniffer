@@ -14,14 +14,13 @@
 
 `head .gitignore`
 
-> .DS_Store
->
-> ._.DS_Store
->
-> **/.DS_Store
->
-> **/._.DS_Store
- 
+Appears as: –
+```
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+```
 ## Step Three: Add file contents to the index
 *git-add* - Add file contents to the index
 
@@ -49,24 +48,40 @@
 
 *git checkout -b new-branch*
 
-`git checkout -b new-version`
+`git checkout -b revised-version`
+
+### Inspect the branches
+*git-branch* - List, create, or delete branches
+
+`git branch`
 
 ## Step Five: Edit a file
 `nano README.md`    
 
+### (Possibly) re-inspect the working tree status
+`git status`
 
-### 
-git log snitch-sniffer.py
+## Step Six: Record changes to the repository (repo)   
+`git commit -am "edit README.md"`
 
-### git-checkout - Switch branches or restore working tree files
-git checkout 5fd772a292c019a7cf3012b1156685280d4a7d2d snitch-sniffer.py
+### (Possibly) re-inspect the working tree status
+`git status`
 
-git commit -am 'restore find function'
+### (Possibly) inspect changes to the file in this branch
+*git-log* - Show commit logs
 
-git status
+`git log README.md`
 
-git checkout -b lidar-version
+### (Possibly) restore a previous version from the  working tree files
+'git checkout 5fd772a292c019a7cf3012b1156685280d4a7d2d README.md`
 
-### delete the branch if it didn’t work out
-git branch -D lidar-version
+`git commit -am "restore earler version"`
+
+`git status`
+
+
+
+
+### Or delete the branch if it didn’t work out
+`git branch -D new-version`
 
