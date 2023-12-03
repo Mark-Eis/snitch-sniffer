@@ -2,6 +2,7 @@
 ## Step One: Create a folder for the project
 `mkdir snitch-sniffer`
 
+### Make this the current folder
 `cd snitch-sniffer`
 
 ## Step Two: Create a Git repository for the project
@@ -72,12 +73,27 @@ Appears as: –
 
 `git log README.md`
 
-### (Possibly) restore a previous version from the  working tree files
-'git checkout 5fd772a292c019a7cf3012b1156685280d4a7d2d README.md`
+### (Possibly) restore a previous version from the working tree files
+`git checkout 5fd772a292c019a7cf3012b1156685280d4a7d2d README.md`
 
+### Commit the restored version to the repo
 `git commit -am "restore earler version"`
 
+### (Possibly) re-inspect the working tree status
 `git status`
+
+## Step Seven: Switch back to the *main* branch and merge the changes
+`git checkout main`
+
+### Confirm we're back in the *main* branch
+`git branch`
+
+### Merge the changes in *revised-version* with *main* branch
+*git-merge* - Join two or more development histories together
+
+`git merge revised-version`
+ 
+
 
 
 
