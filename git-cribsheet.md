@@ -5,7 +5,7 @@
 `cd snitch-sniffer`
 
 ## Step Two: Create a Git repository for the project
-### git-init - Create an empty Git repository or reinitialize an existing one
+**git-init - Create an empty Git repository or reinitialize an existing one**
 `git init`
 
 ### Create a .gitignore file for the project, ignoring .DS_Store
@@ -14,15 +14,15 @@
 `head .gitignore`
 
 > .DS_Store
-
+>
 > ._.DS_Store
-
+>
 > **/.DS_Store
-
+>
 > **/._.DS_Store
  
 ## Step Three: Add file contents to the index
-### git-add - Add file contents to the index
+**git-add - Add file contents to the index**
 
 ### Add a single file
 `git add README.md`
@@ -31,19 +31,26 @@
 `git add --all`
 
 ### Inspect the working tree status
-### git-status - Show the working tree status
-git status
+**git-status - Show the working tree status**
+`git status`
 
-### git-commit - Record changes to the repository
-git commit -am "add README.md"
+### Record changes to the repository (repo)
+**git-commit - Record changes to the repository**
+`git commit -am "add README.md"`
 
-### For all files: – 
-git add --all
+### Re-inspect the working tree status
+`git status`  
+    
+## Step Four: Create a branch
+**git-checkout - Switch branches or restore working tree files**
+*git checkout -b <new-branch>*
+`git checkout -b new-version'
 
-git commit -am 'add json rules and python program'
+## Step Five: Edit a file
+`nano README.md`    
 
-git commit -am 'finish find function'
 
+### 
 git log snitch-sniffer.py
 
 ### git-checkout - Switch branches or restore working tree files
