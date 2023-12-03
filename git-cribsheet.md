@@ -1,10 +1,14 @@
 # Getting started with Git—Summary
 
+## Step One: Create a folder for the project
 mkdir snitch-sniffer
 cd snitch-sniffer
 
+## Step Two: Create a Git repository for the project
 ### git-init - Create an empty Git repository or reinitialize an existing one
 git init
+
+## Step Three: Create a Git repository for the project
 
 touch .gitignore
 
