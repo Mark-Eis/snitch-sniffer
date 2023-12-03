@@ -6,6 +6,7 @@
 
 ## Step Two: Create a Git repository for the project
 **git-init - Create an empty Git repository or reinitialize an existing one**
+
 `git init`
 
 ### Create a .gitignore file for the project, ignoring .DS_Store
@@ -32,10 +33,12 @@
 
 ### Inspect the working tree status
 **git-status - Show the working tree status**
+
 `git status`
 
 ### Record changes to the repository (repo)
 **git-commit - Record changes to the repository**
+
 `git commit -am "add README.md"`
 
 ### Re-inspect the working tree status
@@ -43,8 +46,10 @@
     
 ## Step Four: Create a branch
 **git-checkout - Switch branches or restore working tree files**
-*git checkout -b <new-branch>*
-`git checkout -b new-version'
+
+*git checkout -b new-branch*
+
+`git checkout -b new-version`
 
 ## Step Five: Edit a file
 `nano README.md`    
