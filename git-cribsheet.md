@@ -3,8 +3,7 @@
 mkdir snitch-sniffer
 cd snitch-sniffer
 
-### git-init - Create an empty Git repository or reinitialize an existing 
-one
+### git-init - Create an empty Git repository or reinitialize an existing one
 git init
 
 touch .gitignore
