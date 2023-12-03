@@ -94,9 +94,12 @@ Appears as: –
 `git merge revised-version`
  
 ## Step Eight: Connect to corresponding repo in GitHub
-### Only needs to be done once, and may require a personal access token, see [Managing your personal access 
+### Only needs to be done once, and may require a personal access token
+
+See [Managing your personal access 
 tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) and 
 [Personal access tokens (classic)](https://github.com/settings/tokens). 
+
 *git-remote* - Manage set of tracked repositories
 
 `git remote add origin git@github.com:Mark-Eis/snitch-sniffer.git`
