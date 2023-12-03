@@ -77,7 +77,7 @@ Appears as: –
 `git checkout 5fd772a292c019a7cf3012b1156685280d4a7d2d README.md`
 
 ### Commit the restored version to the repo
-`git commit -am "restore earler version"`
+`git commit -am "restore earlier version"`
 
 ### (Possibly) re-inspect the working tree status
 `git status`
