@@ -8,21 +8,27 @@ cd snitch-sniffer
 ### git-init - Create an empty Git repository or reinitialize an existing one
 git init
 
-## Step Three: Create a Git repository for the project
+### Create a .gitignore file for the project, ignoring .DS_Store
 
 touch .gitignore
 
 head .gitignore
 
-.DS_Store
-._.DS_Store
-**/.DS_Store
-**/._.DS_Store
+> .DS_Store
+> ._.DS_Store
+> **/.DS_Store
+> **/._.DS_Store
  
-
+## Step Three: Add file contents to the index
 ### git-add - Add file contents to the index
+
+### Add a single file
 git add README.md
 
+### Add all files (other than those specified in .gitignore: –
+git add --all
+
+### Inspect the working tree status
 ### git-status - Show the working tree status
 git status
 
