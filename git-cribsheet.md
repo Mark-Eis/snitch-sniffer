@@ -102,7 +102,7 @@ tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-
 
 *git-remote* - Manage set of tracked repositories
 
-`git remote add origin git@github.com:Mark-Eis/snitch-sniffer.git`
+`git remote add origin https://github.com/Mark-Eis/snitch-sniffer.git`
 
 ### Check the remote url
 *git remote get-url \<name>*
