@@ -54,7 +54,7 @@ Appears as: –
 ### Re-inspect the working tree status
 `git status`  
     
-## Step Four: Create a branch
+## Step Six: Create a branch
 *git-checkout* - Switch branches or restore working tree files
 
 *git checkout -b \<new-branch>*
@@ -66,13 +66,13 @@ Appears as: –
 
 `git branch`
 
-## Step Six: Edit a file
+## Step Seven: Edit a file
 `nano README.md`    
 
 ### (Possibly) re-inspect the working tree status
 `git status`
 
-## Step Seven: Record changes to the repository (repo)   
+## Step Eight: Record changes to the repository (repo)   
 `git commit -am "edit README.md"`
 
 ### (Possibly) re-inspect the working tree status
@@ -92,7 +92,7 @@ Appears as: –
 ### (Possibly) re-inspect the working tree status
 `git status`
 
-## Step Eight: Switch back to the *main* branch and merge the changes
+## Step Nine: Switch back to the *main* branch and merge the changes
 `git checkout main`
 
 ### Confirm we're back in the *main* branch
@@ -103,7 +103,7 @@ Appears as: –
 
 `git merge revised-version`
  
-## Step Nine: Connect to corresponding repo in GitHub
+## Step Ten: Connect to corresponding repo in GitHub
 ### Only needs to be done once, and may require a personal access token
 
 See [Managing your personal access 
@@ -119,11 +119,11 @@ tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-
 
 `git remote get-url origin`
 
-## Step Ten: Push to GitHub
+## Step Eleven: Push to GitHub
 *git-push* - Update remote refs along with associated objects
 
 `git push -u origin main`
 
-## Step Eleven: Delete a branch if things didn’t work out
+## Step Twelve: Delete a branch if things didn’t work out
 `git branch -D revised-version`
 
