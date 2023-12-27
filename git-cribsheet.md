@@ -10,8 +10,17 @@
 
 `git init`
 
-### Create a .gitignore file for the project, ignoring .DS_Store
+## Step Three: Create a .gitignore file for the project
+
+### Create file using Terminal command
+*touch* – Create new file
+
 `touch .gitignore`
+
+On macOS, git should ignore .DS_Store files
+
+### Inspect file using Terminal command
+*head* – Output the first 10 lines of file
 
 `head .gitignore`
 
@@ -22,7 +31,7 @@ Appears as: –
 **/.DS_Store
 **/._.DS_Store
 ```
-## Step Three: Add file contents to the index
+## Step Four: Add file contents to the index
 *git-add* - Add file contents to the index
 
 ### Add a single file
@@ -36,6 +45,7 @@ Appears as: –
 
 `git status`
 
+## Step Five:
 ### Record changes to the repository (repo)
 *git-commit* - Record changes to the repository
 
@@ -56,13 +66,13 @@ Appears as: –
 
 `git branch`
 
-## Step Five: Edit a file
+## Step Six: Edit a file
 `nano README.md`    
 
 ### (Possibly) re-inspect the working tree status
 `git status`
 
-## Step Six: Record changes to the repository (repo)   
+## Step Seven: Record changes to the repository (repo)   
 `git commit -am "edit README.md"`
 
 ### (Possibly) re-inspect the working tree status
@@ -82,7 +92,7 @@ Appears as: –
 ### (Possibly) re-inspect the working tree status
 `git status`
 
-## Step Seven: Switch back to the *main* branch and merge the changes
+## Step Eight: Switch back to the *main* branch and merge the changes
 `git checkout main`
 
 ### Confirm we're back in the *main* branch
@@ -93,7 +103,7 @@ Appears as: –
 
 `git merge revised-version`
  
-## Step Eight: Connect to corresponding repo in GitHub
+## Step Nine: Connect to corresponding repo in GitHub
 ### Only needs to be done once, and may require a personal access token
 
 See [Managing your personal access 
@@ -109,11 +119,11 @@ tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-
 
 `git remote get-url origin`
 
-## Step Eight: Push to GitHub
+## Step Ten: Push to GitHub
 *git-push* - Update remote refs along with associated objects
 
 `git push -u origin main`
 
-## Step Nine: Delete a branch if things didn’t work out
+## Step Eleven: Delete a branch if things didn’t work out
 `git branch -D revised-version`
 
